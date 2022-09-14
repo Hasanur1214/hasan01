@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    outline: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+
+/* ================================== Header Part =========================================== */
+
+header {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: #223047;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.menu-part li {
+    display: inline-block;
+}
+.menu-part a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.button-part {
+
+}
+.button-01 a {
+
+}
+.button-01 button {
+    background-color: #00fff0;
+    padding: 10px;
+}
+.menu-part li:hover {
+    background-color: #00fff0;
+    padding: 5px ;
+}
+.icon {
+
+}
+/* ========================== Hero Part ============================== */
+#hero {
+    background-color: #223047;
+    height: 600px;
+}
+.header-writing-part {
+    color: white;
+    margin-top: 140px;
+}
+.header-writing-part h2 {
+    font-size: 50px;
+}
+.header-writing-part p {
+    font-size: 20px;
+    margin-top: 40px;
+}
+.header-writing-part button {
+    margin-top: 40px;
+}
+.button-03 {
+    background-color: #19ebe9;
+    padding: 10px;
+}
+.button-04 {
+    padding: 10px;
+    background-color: #00fff0;
+}
+
+.header-img-part img {
+    position: relative;
+    margin-top: 120px;
+}
+
+
+/* ================================= Power ================================ */
+.power {
+    background-color: #ffffff;
+    height: 700px;
+}
+.power-writing-part {
+    margin-top: 200px;
+
+}
+.power-writing-part p {
+    font-size: 25px;
+}
+
+.power-box-part {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.box-01 {
+    box-shadow: 0px 0px 3px gray;
+    position: relative;
+}
+.box-01 h2 {
+    margin-top: 25px;
+}
+.box-01 p {
+    margin-top: 25px;
+    padding: 20px;
+    height: 100px;
+}
+.one {
+    position: relative;
+    left: -50px;
+}
+.two {
+    position: relative;
+    left: -17px;
+}
+.three {
+    position: relative;
+    right: -17px;
+}
+.four {
+    position: relative;
+    right: -50px;
+}
+
+
+/* ================================ smart ============================== */
+.smart {
+    background-color: #f5f6fa;
+}
+.smart-img-part img {
+    width: 100%;
+}
+
+.smart-writing-part {
+    text-align: center;
+    margin-top: 220px;
+}
+.smart-writing-part p {
+    margin-top: 40px;
+}
+
+.box-0001 img, h1 {
+    display: inline;
+}
+
+.box-0001 {
+    box-shadow: 0px 0px 3px gray;
+}
+.box-0001:hover {
+    background-color: #00fff0;
+}
+
+.seven {
+    padding: 40px;
+    position: relative;
+    top: 50px;
+
+}
+.eight {
+    padding: 60px;
+    position: relative;
+    top: 100px;
+}
+.nine {
+    padding: 40px;
+    position: relative;
+    top: 150px;
+}
+.ten {
+    padding: 40px;
+    position: relative;
+    top: 200px;
+}
+
+.box-0001 img {
+    padding: 0px 20px;
+}
+.twenty {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/* ===================================== Need ================================== */
+
+.need {
+    text-align: center;
+    background-color: #f5f6fa;
+    height: 492px;
+}
+.need-writing-part p {
+    margin-top: 30px;
+}
+
+.need-writing-part {
+    margin-top: 160px;
+}
+
+.need-img-part img {
+    margin-top: 189px;
+}
+
+/* ============================== video ============================= */
+.video {
+    background-color: #223047;
+    height: 370px;
+    text-align: center;
+    color: white;
+}
+.video-part {
+    margin-top: 50px;
+}
+
+.video-part img {
+    margin: 15px;
+    font-size: 40px;
+}
+.video-part h2 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+.video-writing-part {
+    margin-top: 25px;
+}
+
+
+/* ===================================== Join =============================== */
+
+.join {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.join-writing-part h2 {
+    font-size: 40px;
+}
+.join-writing-part p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.join-writing-part button {
+    margin-top: 70px;
+    background-color: #00fff0;
+    padding: 20px 40px;
+}
+
+/* ============================== paragraph ======================================= */
+.paragraph {
+    background-color: #223047;
+    text-align: center;
+    padding: 20px;
+    color: #00fff0;
+    height: 300px;
+}
+.paragraph-part p {
+    margin-top: 120px;
+}
+
+/* ============================ smart part ========================== */
+
+.smart-part {
+    background-color: #f5f6fa;
+}
+
+.smart-writing-part h1 {
+    font-size: 40px;
+}
+.smart-writing-part p {
+    font-size: 20px;
+}
+.smart-writing-part img {
+    margin-top: 40px;
+}
+
+
+/* =============================== About Part ================================= */
+
+.about {
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    height: 400px;
+    padding: 40px;
+}
+.about-box h1 {font-size: 30px;
+}
+
+.about-box p {
+    margin-top: 20px;
+}
+.about-writing-part-001 {
+    text-align: center;
+}
+
+.about-writing-part-001 h1 {
+    font-size: 40px;
+}
+.about-writing-part-001 p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-writing-part-001 button {
+    margin-top: 30px;
+    background-color: #00fff0;
+    padding: 15px 25px;
+}
+
+.about-writing-part-001 input {
+    background-color: #f5f6fa;
+    padding: 15px;
+    width: 35%;
+}
+
+.about-00001 {
+    height: 300px;
+}
+
+
+/* ================================================== Title ==================================== */
+
+.title {
+    background-color: #223047;
+}
+.title-writing-part p {
+    color: #00fff0;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.title-icon-part a {
+    display: inline-block;
+}
+
+.title-icon-part img {
+    
+}
